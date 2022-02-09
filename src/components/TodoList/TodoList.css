@@ -1,0 +1,17 @@
+main {
+  height: 100vh;
+  background-color:rgb(245, 244, 244);
+  padding: 15px 40px;
+}
+
+main h2 {
+  font-family: 'Merriweather', serif;
+}
+
+.all-tasks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+

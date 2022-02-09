@@ -1,0 +1,42 @@
+article {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  padding: 0px 20px;
+  margin-bottom: 45px;
+  background-color: azure;
+  border-radius: 5px;
+}
+
+span.title {
+  font-family: 'Montserrat Alternates', sans-serif; 
+  font-size: 15px;
+  display: inline-block;
+  padding: 3px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p.todo-description {
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+  max-width: max-content;
+  max-height: 100px;
+  cursor: pointer;
+}
+
+.icons {
+  position: absolute;
+  top: 170px;
+  left: 230px;
+}
+
+.icons .editIcon {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.icons .trashIcon {
+  cursor: pointer;
+}
