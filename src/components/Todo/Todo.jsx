@@ -13,10 +13,10 @@ export default function Todo(props) {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim animi
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim animi
       </p>
-      <div className="icons" style={{ color: props.taskColor }}>
+      <footer className="icons" style={{ color: props.taskColor }}>
         <FontAwesomeIcon icon={faPenToSquare} className="editIcon" />
         <FontAwesomeIcon icon={faTrashCan} className="trashIcon" />
-      </div>
+      </footer>
     </article>
   );
 }

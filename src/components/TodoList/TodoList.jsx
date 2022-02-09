@@ -14,6 +14,7 @@ export default function TodoList() {
         <Todo title="Typescript" taskColor="darkcyan" titleColor="cyan" />
         <Todo title="Node" taskColor="darkkhaki" titleColor="khaki" />
         <Todo title="Jest" taskColor="darkturquoise" titleColor="lightblue" />
+        <Todo title="Jest" taskColor="darkturquoise" titleColor="lightblue" />
       </div>
     </main>
   );
