@@ -1,11 +1,11 @@
-import Header from "../components/Header/Header";
-import TodoList from "../components/TodoList/TodoList";
+import Header from "../components/Header";
+import TasksList from "../components/TasksList";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <TodoList />
+      <TasksList />
     </>
   );
 }

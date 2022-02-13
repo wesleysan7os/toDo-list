@@ -18,7 +18,7 @@ span.title {
   cursor: pointer;
 }
 
-p.todo-description {
+p.task-description {
   font-family: 'Merriweather', serif;
   font-size: 13px;
   max-width: max-content;
