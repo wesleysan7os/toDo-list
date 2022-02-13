@@ -8,6 +8,15 @@ article {
   border-radius: 5px;
 }
 
+article:hover {
+  box-shadow: 0 14px 26px rgba(32, 15, 15, 0.1);
+  transition: all 0.3s ease-out;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
 span.title {
   font-family: 'Montserrat Alternates', sans-serif; 
   font-size: 15px;
@@ -15,15 +24,13 @@ span.title {
   padding: 3px 20px;
   margin-top: 20px;
   border-radius: 5px;
-  cursor: pointer;
 }
 
-p.task-description {
+p.description {
   font-family: 'Merriweather', serif;
   font-size: 13px;
   max-width: max-content;
   max-height: 100px;
-  cursor: pointer;
 }
 
 .icons {
